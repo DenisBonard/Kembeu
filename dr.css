@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppin',sans-serif;
+}
+body{
+    background-color:khaki;
+     background-repeat: no-repeat;
+     background-attachment: scroll;
+     background-size: cover;
+     margin: 20px;
+     width: auto;
+     align-items: center;
+    
+ }
+ .figure{
+    font-size: 80px;
+ 
+    color: black;
+    border: double;
+    margin-bottom: 50;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: left;
+    justify-content: center;
+    text-align:justify;
+}
+.tyo{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.233);
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    width: 800px;
+    backdrop-filter: blur(7px) ;
+}
+.tio{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.233);
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    width: 800px;
+    backdrop-filter: blur(7px) ;
+}
+.t{
+    display:block;
+    flex-direction:row;
+}
+div a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 100%;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin: 50px;
+}
+div a:hover{
+    color: blue;
+    transition: 2s;
+}

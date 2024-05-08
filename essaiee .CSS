@@ -1,0 +1,92 @@
+body{
+    background-image : url( hotel.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin: 20px;
+    width: auto;
+    
+}
+.figure{
+    font-size: 80px;
+    text-align: center; 
+    color: white;
+    border: double;
+    
+}
+div{
+    font-size: 25px;
+    text-align: center; 
+    color: black;
+    font-family: georgia, serif; 
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 100%;
+    font-weight: bold;
+}
+a:hover{
+    color: blue;
+    transition: 2s;
+}
+.menu ul{
+    display: flex;
+    background-color: black;
+    margin: 5%;
+    justify-content: center;
+    border-radius: 20px;
+}
+.menu ul li{
+    margin: 50px;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'poppins';
+    color: antiquewhite;
+}
+.menu ul li:hover{
+    color: blue;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    size-adjust: 0%;
+    width: auto;
+    align-items: center;
+    margin: auto;
+}
+.er{
+    margin-left: 300px;
+    flex-direction:column;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.text{
+    position:relative;
+    top: 100px;
+    
+    
+}
+.er{
+    width: 200px;
+    height: auto;
+}
+.df{
+    display:block;
+    background-color:gray;
+    margin: 20px;
+    justify-content: center;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   height: 50px;
+   border-radius: 20px;
+} 
+.we{
+    width: 50px;
+    height: auto;
+}
+.df p{
+    font-size: 20px;
+}
