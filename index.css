@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppin',sans-serif;
+}
+body{
+    background-image : linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(finsbury-velizy-villacoublay.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin: 20px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.233);
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 500px;
+    backdrop-filter: blur(7px) ;
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+}
+.fr{
+    text-align: center;
+}
+
+/* .fr div :nth-child(1){
+
+    border-radius:10px ;
+    backdrop-filter: blur(90%);
+} */
+.dr{
+    width: 350px;
+    height: 30px;
+}
+.figure{
+    font-size: 200%;
+    color: black;
+    border: double;
+    margin-bottom: 50;
+}
+header{
+    position: fixed;
+    top: 10%;
+    left: 26%;
+    padding: 20px 10px;
+    width: 50%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s
+}
+.sexe {
+    display: flex;
+    margin-left: 150px;
+}
+.sexe2 {
+    margin-left: 15px;
+}
+div a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 100%;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin: 30px;
+}
+div a:hover{
+    color: blue;
+    transition: 2s;
+}
