@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head"></div>
+    <fieldset>
+        <h1 class="formulaire">IAI - BAFOUSSAM CENTRE D'EXCELLENCE TECNOLOGIQUE PAUL BIYA </h1>
+    </fieldset>
+    <h1 class="formulaire">
+        <u>FORMULAIRE D'INSCRIPTION ETUDIANT</u>
+    </h1>
+    <h2>Remplissez soigneusement le formulaire d'inscription</h2>
+    <fieldset>
+    <h3>Nom complet</h3>
+    <form action="/submit-form.php" method="post">
+        
+         <div>
+            <label for="name">nom :</label>
+            <input type="text" name="name" id="name">
+            
+
+
+            <label for="prenom">Prenom :</label>
+            <input type="prenom" name="prenom" id="prenom">
+
+
+            <label for="nom de famille">nom de famille </label>
+            <input type="nom de famille" name="nom de famille" id="nom de famille">
+         </div>
+         <div class="sexe">
+            <div>
+                <h3>sexe</h3>
+                <label for="sexe">sexe :</label>
+                <select name="sexe" id="sexe">
+                    <option value="masculin">masculin</option>
+                    <option value="feminin">feminin</option>
+                </select>
+            </div>
+         </div>
+          <br>
+
+         <div class="naissance">
+            <h3>date de naissance</h3>
+            <label for="jour">jour :</label>
+            <select name="jour" id="jour">
+                <option value="lundi">lundi</option>
+                <option value="mardi">mardi</option>
+                <option value="mercredi">mercredi</option>
+                <option value="jeudi">jeudi</option>
+                <option value="vendredi">vendredi</option>
+                <option value="samedi">samedi</option>
+                <option value="dimanche">dimanche</option>
+            </select>
+            <label for="mois">moi :</label>
+            <select name="mois" id="mois">
+                <option value="janvier">janvier</option>
+                <option value="fevrier">fevrier</option>
+                <option value="mars">mars</option>
+                <option value="avril">avril</option>
+                <option value="mai">mai</option>
+                <option value="juin">juin</option>
+                <option value="juillet">juillet</option>
+                <option value="aout">aout</option>
+                <option value="septembre">septembre</option>
+                <option value="octobre">octobre</option>
+                <option value="novembre">novembre</option>
+                <option value="decembre">decembre</option> 
+
+            </select>
+            <label for="annee">annee :</label>
+            <input type="annee">
+
+         </div>
+        </div>
+        <br>
+
+    <div class="adresse">
+        <label for="adresse">address :</label>
+        <input type="adresse" name="adresse" id="adresse">
+
+    </div>
+    <br>
+    <div class="ville">
+        <label for="ville">ville :</label>
+        <input type="ville" name="ville" id="ville">
+        <label for="departement">departement :</label>
+        <input type="departement" name="departement" id="departement">
+    </div>
+     <br>
+     <div class="button">
+        <button type="submit">Envoyer le message</button>
+
+     </div>
+        </fieldset>
+     <br>
+     <div class="pt">
+        <img src="img.jpg" alt="" width="372px" height="auto"> 
+        <img src="iai-12-13-070.jpg" alt="" width="372px" height="auto">
+        <img src="m-abanda-en-conclave-avec-les-chefs-de-centre-iai.jpg" alt="" width="372px" height="auto">
+        <img src="normal_gf87geb.jpg" alt="" width="372" height="auto">
+     </div>
+        
+      
+       <br>
+       <marquee behavior="" direction="right">Contactez-noux en cas de besoin au + 237 622 729 958 / 622 729 957 </marquee>
+
+     </div>
+    </form>
+</body>
+</html>
